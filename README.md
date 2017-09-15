@@ -1,0 +1,2 @@
+# Home-Automation
+This is a work in progress which will eventually culminate in a home automation system. At the center of the system is a Raspberry Pi, which acts to analyze data and service all HTTP requests. The Pi communicates over WiFi to various ESP8266 modules, each of which is serially linked to an Attiny85 microcontroller. The Attiny handles all digital and analog data from sensors and relays in back to the ESP module for sending. 
